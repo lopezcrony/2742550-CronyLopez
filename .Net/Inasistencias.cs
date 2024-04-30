@@ -20,40 +20,40 @@ class Program
             Console.WriteLine("7. Salir");
 
             Console.Write("Seleccione una opción: ");
-            int opcion=int.Parse(Console.ReadLine()!);
-            
+            int opcion = int.Parse(Console.ReadLine()!);
 
-            
-                switch (opcion)
-                {
-                    case 1:
-                        RegistrarInasistencias();
-                        break;
-                    case 2:
-                        ListarTodasInasistencias();
-                        break;
-                    case 3:
-                        ListarInasistenciasSuperiores3();
-                        break;
-                    case 4:
-                        ConsultarTotalInasistencias();
-                        break;
-                    case 5:
-                        CalcularValorAPagar();
-                        break;
-                    case 6:
-                        GenerarNumeroSuerte();
-                        break;
-                    case 7:
-                        continuar = false;
-                        Console.WriteLine("Saliendo...");
-                        break;
-                    default:
-                        Console.WriteLine("Opción no válida. Por favor, seleccione una opción válida.");
-                        break;
-                }
-           
-            
+
+
+            switch (opcion)
+            {
+                case 1:
+                    RegistrarInasistencias();
+                    break;
+                case 2:
+                    ListarTodasInasistencias();
+                    break;
+                case 3:
+                    ListarInasistenciasSuperiores3();
+                    break;
+                case 4:
+                    ConsultarTotalInasistencias();
+                    break;
+                case 5:
+                    CalcularValorAPagar();
+                    break;
+                case 6:
+                    GenerarNumeroSuerte();
+                    break;
+                case 7:
+                    continuar = false;
+                    Console.WriteLine("Saliendo...");
+                    break;
+                default:
+                    Console.WriteLine("Opción no válida. Por favor, seleccione una opción válida.");
+                    break;
+            }
+
+
 
             Console.WriteLine();
         }
@@ -68,10 +68,11 @@ class Program
         string nombre = Console.ReadLine()!;
 
         Console.Write("Ingrese la cantidad de inasistencias (entre 1 y 100): ");
-        int inasistencias;
-        if (int.TryParse(Console.ReadLine(), out inasistencias) && inasistencias >= 1 && inasistencias <= 100)
+        int inasistencias=int.Parse(Console.ReadLine()!);
+
+        if (inasistencias >= 1 && inasistencias <= 100)
         {
-            Aprendiz existente = aprendices.Find(aprendiz => aprendiz.Documento == documento);
+            Aprendiz existente = aprendices.Find(aprendiz => aprendiz.Documento == documento)!;
             if (existente != null)
             {
                 existente.Inasistencias += inasistencias;
@@ -112,9 +113,10 @@ class Program
     static void ConsultarTotalInasistencias()
     {
         Console.Write("Ingrese el documento del aprendiz: ");
-        string documento = Console.ReadLine();
+        string? documento = Console.ReadLine();
 
-        Aprendiz aprendiz = aprendices.Find(a => a.Documento == documento);
+        Aprendiz aprendiz = aprendices.Find(a => a.Documento == documento)!;
+
         if (aprendiz != null)
         {
             Console.WriteLine($"Total de inasistencias para {aprendiz.Nombre}: {aprendiz.Inasistencias}");
@@ -128,18 +130,20 @@ class Program
     static void CalcularValorAPagar()
     {
         Console.Write("Ingrese el código del producto: ");
-        string codigo = Console.ReadLine();
+        string? codigo = Console.ReadLine();
 
         Console.Write("Ingrese el nombre del producto: ");
-        string nombre = Console.ReadLine();
+        string? nombre = Console.ReadLine();
 
         Console.Write("Ingrese el precio del producto: ");
-        decimal precio;
-        if (decimal.TryParse(Console.ReadLine(), out precio) && precio > 0)
+        decimal precio=decimal.Parse(Console.ReadLine()!);
+
+        if (precio > 0)
         {
             Console.Write("Ingrese la cantidad del producto: ");
-            int cantidad;
-            if (int.TryParse(Console.ReadLine(), out cantidad) && cantidad > 0)
+            int cantidad= int.Parse(Console.ReadLine()!);
+
+            if (cantidad > 0)
             {
                 decimal valorBruto = precio * cantidad;
                 decimal descuento = cantidad > 10 ? valorBruto * 0.1m : 0;
@@ -169,11 +173,11 @@ class Program
 
 class Aprendiz
 {
-    public string Documento { get; set; }
-    public string Nombre { get; set; }
+    public string? Documento { get; set; }
+    public string? Nombre { get; set; }
     public int Inasistencias { get; set; }
 
-    public Aprendiz(string documento, string nombre, int inasistencias)
+    public Aprendiz(string? documento, string? nombre, int inasistencias)
     {
         Documento = documento;
         Nombre = nombre;
