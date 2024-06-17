@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PEKPwyQEHY9je3rq4o4M6q/b5tk+VygM4sKoGQAuYzh5PS1fZWqgGQ6JiC4oF1oBZtcA+ryTQWMvt7k1kgOvew==",
+  "dgSpecHash": "GxoNHo6KeOgowoX+gjpjS3TF9tRZop42xmg0PQaQF0vQ2PCrvxlaQragaBjCgJl3je+EDSlM0GyeopWMHU0wrg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Crony\\OneDrive\\Documentos\\SENA\\8.Quinto Trimestre\\.Net\\Clases\\peajeEvaluacion\\peajeEvaluacion\\peajeEvaluacion.csproj",
+  "projectFilePath": "C:\\Users\\Crony\\OneDrive\\Documentos\\SENA\\8.Quinto Trimestre\\2742550-CronyLopez\\.Net\\Evaluacion\\peajeEvaluacion\\peajeEvaluacion\\peajeEvaluacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Crony\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Crony\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.6\\microsoft.aspnetcore.authentication.jwtbearer.8.0.6.nupkg.sha512",
