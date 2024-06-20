@@ -1,0 +1,28 @@
+com.example.peajeapiexamen.app-jetified-startup-runtime-1.1.1-0 C:\Users\santiago\.gradle\caches\transforms-3\21b19821cacbfe7976fecc380dabd39b\transformed\jetified-startup-runtime-1.1.1\res
+com.example.peajeapiexamen.app-jetified-annotation-experimental-1.4.0-1 C:\Users\santiago\.gradle\caches\transforms-3\3293d3037e4f67deef0a14809d89985d\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.peajeapiexamen.app-jetified-activity-1.7.2-2 C:\Users\santiago\.gradle\caches\transforms-3\568520366a23e35f1792442dcaf5882a\transformed\jetified-activity-1.7.2\res
+com.example.peajeapiexamen.app-lifecycle-livedata-core-2.6.2-3 C:\Users\santiago\.gradle\caches\transforms-3\5a23876cd3a79f3f5e0ef78de1882fa3\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.peajeapiexamen.app-jetified-profileinstaller-1.3.0-4 C:\Users\santiago\.gradle\caches\transforms-3\70f89d4395bd8d78b170058c85b6e838\transformed\jetified-profileinstaller-1.3.0\res
+com.example.peajeapiexamen.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-5 C:\Users\santiago\.gradle\caches\transforms-3\749be541400721c7cd1c06446ce72552\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.peajeapiexamen.app-lifecycle-viewmodel-2.6.2-6 C:\Users\santiago\.gradle\caches\transforms-3\7971550ecc6a2b7859cee65da8e09646\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.peajeapiexamen.app-jetified-core-ktx-1.13.0-7 C:\Users\santiago\.gradle\caches\transforms-3\7b22b520c9c1143409fab276d253e9e5\transformed\jetified-core-ktx-1.13.0\res
+com.example.peajeapiexamen.app-jetified-savedstate-1.2.1-8 C:\Users\santiago\.gradle\caches\transforms-3\82da343ce8ac027f9df149b5eba809cc\transformed\jetified-savedstate-1.2.1\res
+com.example.peajeapiexamen.app-core-1.13.0-9 C:\Users\santiago\.gradle\caches\transforms-3\98438b623243feb6e9813fd58f1ffdbd\transformed\core-1.13.0\res
+com.example.peajeapiexamen.app-core-runtime-2.2.0-10 C:\Users\santiago\.gradle\caches\transforms-3\9a8bb6041c4a6efcfda3f740cfabb2cd\transformed\core-runtime-2.2.0\res
+com.example.peajeapiexamen.app-lifecycle-livedata-2.6.2-11 C:\Users\santiago\.gradle\caches\transforms-3\d030be096bc3be838cca85c75a0fb338\transformed\lifecycle-livedata-2.6.2\res
+com.example.peajeapiexamen.app-jetified-play-services-base-18.3.0-12 C:\Users\santiago\.gradle\caches\transforms-3\d9e800c2d3bd14740902c7faf76c2f1a\transformed\jetified-play-services-base-18.3.0\res
+com.example.peajeapiexamen.app-jetified-window-1.0.0-beta04-13 C:\Users\santiago\.gradle\caches\transforms-3\e2a265201af246c66c0f9cd95d99baa0\transformed\jetified-window-1.0.0-beta04\res
+com.example.peajeapiexamen.app-jetified-play-services-basement-18.3.0-14 C:\Users\santiago\.gradle\caches\transforms-3\ef6731c0a4249247b715c6e0a61fc1c6\transformed\jetified-play-services-basement-18.3.0\res
+com.example.peajeapiexamen.app-jetified-window-java-1.0.0-beta04-15 C:\Users\santiago\.gradle\caches\transforms-3\f2fee4376f6f1b54c8f4a6f8cf9f8954\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.peajeapiexamen.app-lifecycle-runtime-2.6.2-16 C:\Users\santiago\.gradle\caches\transforms-3\f4235235661499a7d28fb2618559742b\transformed\lifecycle-runtime-2.6.2\res
+com.example.peajeapiexamen.app-packaged_res-17 C:\Users\santiago\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.20\android\build\intermediates\packaged_res\release
+com.example.peajeapiexamen.app-packaged_res-18 C:\Users\santiago\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.0\android\build\intermediates\packaged_res\release
+com.example.peajeapiexamen.app-packaged_res-19 C:\Users\santiago\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+1\android\build\intermediates\packaged_res\release
+com.example.peajeapiexamen.app-pngs-20 C:\Users\santiago\Desktop\Programacion\trimestre 5\Trabajos-.NET\Examenfinall\Flutter\peajeapiexamen\android\app\build\generated\res\pngs\release
+com.example.peajeapiexamen.app-resValues-21 C:\Users\santiago\Desktop\Programacion\trimestre 5\Trabajos-.NET\Examenfinall\Flutter\peajeapiexamen\android\app\build\generated\res\resValues\release
+com.example.peajeapiexamen.app-rs-22 C:\Users\santiago\Desktop\Programacion\trimestre 5\Trabajos-.NET\Examenfinall\Flutter\peajeapiexamen\android\app\build\generated\res\rs\release
+com.example.peajeapiexamen.app-mergeReleaseResources-23 C:\Users\santiago\Desktop\Programacion\trimestre 5\Trabajos-.NET\Examenfinall\Flutter\peajeapiexamen\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.example.peajeapiexamen.app-mergeReleaseResources-24 C:\Users\santiago\Desktop\Programacion\trimestre 5\Trabajos-.NET\Examenfinall\Flutter\peajeapiexamen\android\app\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.example.peajeapiexamen.app-merged_res-25 C:\Users\santiago\Desktop\Programacion\trimestre 5\Trabajos-.NET\Examenfinall\Flutter\peajeapiexamen\android\app\build\intermediates\merged_res\release
+com.example.peajeapiexamen.app-main-26 C:\Users\santiago\Desktop\Programacion\trimestre 5\Trabajos-.NET\Examenfinall\Flutter\peajeapiexamen\android\app\src\main\res
+com.example.peajeapiexamen.app-release-27 C:\Users\santiago\Desktop\Programacion\trimestre 5\Trabajos-.NET\Examenfinall\Flutter\peajeapiexamen\android\app\src\release\res
